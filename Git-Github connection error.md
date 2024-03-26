@@ -6,6 +6,7 @@ vscode에서 branch 이름을 바꾼다.
 - git branch -m master main 
 
 # 외에 알아두면 좋은 git command 
+
 ``` cpp
 // 깃 저장소 생성 
 git init 
