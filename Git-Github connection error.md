@@ -7,8 +7,8 @@ vscode에서 branch 이름을 바꾼다.
 
 # 외에 알아두면 좋은 git command 
 
-``` javascript
-// 깃 저장소 생성 
+``` cpp
+// generate git repository
 git init 
 
 // Working directory -> Staging Area 
@@ -25,7 +25,7 @@ git remote add origin [address]
 git branch -M [branch name]
 git branch -m [present] [after]
 
-// (option) README.md가 있다면: do pull before push
+// (option) if you have README.md: do pull before push
 git pull origin [branch name]
 
 // local repository -> remote repository
@@ -36,4 +36,7 @@ git pull origin [branch name] (option: if you didn't work at other directory, yo
 git add [directory]
 git commit -m ""
 git push -u origin [branch name]
+
 ```
+
+Reference: https://velog.io/@chan9708/Repository에-main-branch로-push-하는-법
