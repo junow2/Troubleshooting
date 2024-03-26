@@ -7,7 +7,7 @@ vscode에서 branch 이름을 바꾼다.
 
 # 외에 알아두면 좋은 git command 
 
-``` cpp
+``` javascript
 // 깃 저장소 생성 
 git init 
 
